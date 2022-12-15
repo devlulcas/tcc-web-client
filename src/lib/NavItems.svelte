@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
-
+	import { page } from '$app/stores';
 	export let items: { label: string; href: string }[];
 </script>
 
@@ -10,7 +10,7 @@
 
 <nav transition:fly={{ duration: 300, y: 64, opacity: 0, easing: circOut }}>
 	{#each items as item}
-		<a href={item.href}>{item.label}</a>
+		<a class:active={$page.url.pathname === item.href} href={item.href}>{item.label}</a>
 	{/each}
 </nav>
 
@@ -42,5 +42,9 @@
 		text-decoration: none;
 		color: var(--on-primary);
 		font-weight: 600;
+	}
+
+	.active {
+		border-bottom: 2px solid var(--on-primary);
 	}
 </style>
