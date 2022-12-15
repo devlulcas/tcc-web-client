@@ -8,5 +8,9 @@
 	"files.eol": "\n",
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	}
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	"editor.tabSize": 2
 }
