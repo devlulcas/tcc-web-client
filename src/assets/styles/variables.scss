@@ -1,0 +1,72 @@
+:root {
+	--header-height: 60px;
+
+	--primary-h: 0;
+	--primary-s: 0%;
+	--primary-l: 97%;
+
+	--primary: hsl(var(--primary-h), var(--primary-s), var(--primary-l));
+
+	--on-primary: hsl(var(--primary-h), var(--primary-s), calc(var(--primary-l) - 10%));
+
+	--secondary-h: 250;
+	--secondary-s: 100%;
+	--secondary-l: 69%;
+
+	--secondary: hsl(var(--secondary-h), var(--secondary-s), var(--secondary-l));
+
+	--on-secondary: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - 50%));
+
+	--background-h: 0;
+	--background-s: 0%;
+	--background-l: 0%;
+
+	--background: hsl(var(--background-h), var(--background-s), var(--background-l));
+
+	--on-background: hsl(var(--background-h), var(--background-s), calc(var(--background-l) + 100%));
+
+	--surface-h: 0;
+	--surface-s: 0%;
+	--surface-l: 100%;
+	--surface-a: 1;
+
+	--surface: hsla(var(--surface-h), var(--surface-s), var(--surface-l), var(--surface-a));
+
+	--on-surface: hsl(var(--surface-h), var(--surface-s), calc(var(--surface-l) - 50%));
+
+	--error-h: 0;
+	--error-s: 0%;
+	--error-l: 100%;
+	--error-a: 1;
+
+	--error: hsla(var(--error-h), var(--error-s), var(--error-l), var(--error-a));
+
+	--on-error: hsl(var(--error-h), var(--error-s), calc(var(--error-l) - 50%));
+
+	--success-h: 0;
+	--success-s: 0%;
+	--success-l: 100%;
+	--success-a: 1;
+
+	--success: hsla(var(--success-h), var(--success-s), var(--success-l), var(--success-a));
+
+	--on-success: hsl(var(--success-h), var(--success-s), calc(var(--success-l) - 50%));
+
+	--warning-h: 0;
+	--warning-s: 0%;
+	--warning-l: 100%;
+	--warning-a: 1;
+
+	--warning: hsla(var(--warning-h), var(--warning-s), var(--warning-l), var(--warning-a));
+
+	--on-warning: hsl(var(--warning-h), var(--warning-s), calc(var(--warning-l) - 50%));
+
+	--info-h: 0;
+	--info-s: 0%;
+	--info-l: 100%;
+	--info-a: 1;
+
+	--info: hsla(var(--info-h), var(--info-s), var(--info-l), var(--info-a));
+
+	--on-info: hsl(var(--info-h), var(--info-s), calc(var(--info-l) - 50%));
+}
