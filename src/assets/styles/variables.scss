@@ -17,9 +17,9 @@
 
 	--on-secondary: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - 50%));
 
-	--background-h: 0;
-	--background-s: 0%;
-	--background-l: 0%;
+	--background-h: 250;
+	--background-s: 30%;
+	--background-l: 9%;
 
 	--background: hsl(var(--background-h), var(--background-s), var(--background-l));
 
