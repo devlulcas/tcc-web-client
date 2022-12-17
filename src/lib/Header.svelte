@@ -21,6 +21,7 @@
 
 <!-- HTML -->
 <div class="placeholder" />
+
 <header>
 	<a href="/" class="wrapper logo">
 		<img src={logo} alt="logo" title="Learn" />

@@ -56,7 +56,7 @@
 
 			@for $line from 1 through 3 {
 				&:nth-child(#{$line}) {
-					transform: translateX(-20% + $line * 20%);
+					transform: translateX(-20% - $line * 20%);
 				}
 			}
 		}
