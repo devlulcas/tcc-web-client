@@ -14,6 +14,7 @@ const config = {
 			$stores: './src/stores',
 			$utils: './src/utils',
 			$routes: './src/routes',
+			$validators: './src/validators',
 			$pages: './src/routes',
 			$layouts: './src/layouts',
 			$assets: './src/assets',
