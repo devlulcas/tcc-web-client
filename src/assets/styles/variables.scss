@@ -15,7 +15,7 @@
 
 	--secondary: hsl(var(--secondary-h), var(--secondary-s), var(--secondary-l));
 
-	--on-secondary: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - 50%));
+	--on-secondary: hsl(var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) + 50%));
 
 	--background-h: 250;
 	--background-s: 30%;
@@ -35,8 +35,8 @@
 	--on-surface: hsl(var(--surface-h), var(--surface-s), calc(var(--surface-l) - 50%));
 
 	--error-h: 0;
-	--error-s: 0%;
-	--error-l: 100%;
+	--error-s: 90%;
+	--error-l: 65%;
 	--error-a: 1;
 
 	--error: hsla(var(--error-h), var(--error-s), var(--error-l), var(--error-a));
@@ -69,4 +69,10 @@
 	--info: hsla(var(--info-h), var(--info-s), var(--info-l), var(--info-a));
 
 	--on-info: hsl(var(--info-h), var(--info-s), calc(var(--info-l) - 50%));
+
+	--brand-1: #ff4b78;
+	--brand-2: #7b61ff;
+	--brand-3: #5e17b4;
+	--brand-4: #f0669d;
+	--on-brand: #fff;
 }
