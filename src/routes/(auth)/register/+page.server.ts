@@ -17,7 +17,8 @@ export const actions: Actions = {
 			return fail(400, {
 				email: { value: email, error: emailError },
 				name: { value: name, error: nameError },
-				password: { value: password, error: passwordError }
+				password: { value: password, error: passwordError },
+				error: 'Algo deu errado'
 			});
 		}
 

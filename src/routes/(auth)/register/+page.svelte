@@ -8,7 +8,7 @@
 </script>
 
 <form action="?/register" method="post" use:enhance>
-	<h1>Crie sua conta</h1>
+	<h1>Crie sua conta {form?.error}</h1>
 
 	<FormField
 		error={form?.email.error}

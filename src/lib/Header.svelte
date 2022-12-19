@@ -14,7 +14,7 @@
 	const links = [
 		{ label: 'Inicio', href: '/' },
 		{ label: 'Sobre', href: '/about' },
-		{ label: 'Trilhas', href: '/trails' },
+		{ label: 'Trilhas', href: '/rails' },
 		{ label: 'Entrar', href: '/login' }
 	];
 </script>
